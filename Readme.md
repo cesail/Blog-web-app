@@ -3,13 +3,13 @@
 A blog web app that allows users to create an account, log in, post blogs, and see blogs posted by others.  This is a project in progress and is intended as a portfolio web app.
 
 ## Status
-Core models and views in place, authentication and UI functional. Many features remain (see Roadmap).
+Core models and views in place, authentication and UI functional. 
 
 
 ## Built With
 - Python 3.12
 - Django 5.2
-- PostgreSQL (or SQLite for dev)
+- PostgreSQL, SQLite
 - Bootstrap CSS
 
 
@@ -45,10 +45,10 @@ python manage.py runserver
 
 
 ## Roadmap
-Priority orders and checkpoints; mark completed items as [x], in-progress [~], planned [ ]
+Priority orders and checkpoints
 - [x] Core models (Projects, BlogPost, UserProfile)
 - [x] Admin + basic CRUD
-- [~] Responsive frontend templates and layout polish
+- [x] Responsive frontend templates and layout polish
 - [ ] Email integration
 - [ ] Blog: rich text editor, comments, pagination
 - [ ] User profiles edit UI
