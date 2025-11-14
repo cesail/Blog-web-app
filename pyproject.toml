@@ -1,0 +1,17 @@
+[project]
+name = "blog-web-app"
+version = "0.1.0"
+description = "A blog web app that allows users to create an account, log in, post blogs, and see blogs posted by others.  This is a project in progress and is intended as a portfolio web app."
+authors = [
+    {name = "cesail",email = "cesai@tutamail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django (>=5.2.8,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
